@@ -1,0 +1,7 @@
+data/org.postmarketos.Welcome.desktop.in
+data/org.postmarketos.Welcome.appdata.xml.in
+data/org.postmarketos.Welcome.gschema.xml
+src/postmarketos_welcome-window.ui
+src/main.c
+src/postmarketos_welcome-window.c
+

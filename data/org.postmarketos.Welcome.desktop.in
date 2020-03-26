@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=postmarketos-welcome
+Exec=postmarketos-welcome
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
