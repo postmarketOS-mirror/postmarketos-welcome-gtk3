@@ -58,7 +58,7 @@ main (int   argc,
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 	textdomain (GETTEXT_PACKAGE);
 
-  hdy_init(&argc, &argv);
+	hdy_init(&argc, &argv);
 
 	/*
 	 * Create a new GtkApplication. The application manages our main loop,
