@@ -92,7 +92,7 @@
                     <child>
                       <object class="GtkButton" id="close_button">
                         <property name="label" translatable="yes">Start using postmarketOS</property>
-                        <property name="visible">True</property>
+                        <property name="visible">False</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <property name="margin_left">12</property>
