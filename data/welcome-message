@@ -1,0 +1,12 @@
+You are running a beta release of postmarketOS. Please read the following information carefully.
+
+1. Connect to Wi-Fi: tap the bottom arrow (swiping support is planned), open "Settings". Be patient, the load indication is missing. Select "Wi-Fi".
+
+2. Install updates: tap the bottom arrow, open "Software", then "Updates". The app is more usable in landscape mode, switch to it by tapping the top bar. Do updates *now* and periodically to receive the latest bug fixes.
+
+3. Prevent data loss by making backups of anything that is important to you. This is a good idea in general, but especially important when running beta software.
+
+4. If something is not working, report it:
+https://postmarketos.org/issues
+
+5. Close this app (and others): tap the bottom arrow, tap the X on the top right corner of the app window.
