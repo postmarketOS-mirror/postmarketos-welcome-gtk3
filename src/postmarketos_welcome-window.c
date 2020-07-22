@@ -62,4 +62,7 @@ postmarketos_welcome_window_init (PostmarketosWelcomeWindow *self)
   buff[fsize] = 0;
 
   gtk_label_set_markup(self->custom_text, buff);
+
+  /* Remove from autostart (-f: ignore nonexistent) */
+  system("rm -vf ~/.config/autostart/org.postmarketos.Welcome.desktop");
 }
