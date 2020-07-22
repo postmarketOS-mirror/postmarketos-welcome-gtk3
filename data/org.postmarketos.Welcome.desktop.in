@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=postmarketos-welcome
+Name=Welcome
 Exec=postmarketos-welcome
 Terminal=false
 Type=Application
