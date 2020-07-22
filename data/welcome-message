@@ -1,12 +1,18 @@
-You are running a beta release of postmarketOS. Please read the following information carefully.
+<small>You are running a beta release of postmarketOS. Install updates now and make regular backups of important data. Please read the following information carefully.</small>
+ 
+<b>Open/close the top menu:</b> tap the top bar between clock and battery. Tap again in the same spot to close it. <small>(It will likely become more intuitive, see phosh#143).</small>
 
-1. Connect to Wi-Fi: tap the bottom arrow (swiping support is planned), open "Settings". Be patient, the load indication is missing. Select "Wi-Fi".
+<b>Connect to Wi-Fi:</b> open the top menu, tap the Wi-Fi icon. Be patient, the load indication is missing.
+ 
+<b>Install updates:</b> tap the bottom arrow, scroll down to <i>Software</i>. Select <i>Updates</i> on the bottom right. Update now and periodically to receive latest fixes and improvements.
 
-2. Install updates: tap the bottom arrow, open "Software", then "Updates". The app is more usable in landscape mode, switch to it by tapping the top bar. Do updates *now* and periodically to receive the latest bug fixes.
+<b>Lockscreen / power off:</b> open the top menu, tap the power symbol on the top right.
 
-3. Prevent data loss by making backups of anything that is important to you. This is a good idea in general, but especially important when running beta software.
+<b>Close this app (and others):</b> tap the bottom arrow, tap the X on the top right corner of the app window.
 
-4. If something is not working, report it:
-https://postmarketos.org/issues
+Find detailed usage instructions in the wiki:
+<a href="https://postmarketos.org/intro-phosh">https://postmarketos.org/intro-phosh</a>
+If something is not working, report it here:
+<a href="https://postmarketos.org/issues">https://postmarketos.org/issues</a>
 
-5. Close this app (and others): tap the bottom arrow, tap the X on the top right corner of the app window.
+<small>Thanks to everybody who contributed to postmarketOS and Phosh! As Linux enthusiast, <i>you</i> can contribute to postmarketOS too: package build recipes are simple shell scripts. Our development and install tool pmbootstrap gets you started in a few minutes on <i>any</i> Linux distribution.</small>
