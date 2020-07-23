@@ -1,3 +1,5 @@
+subdir('icons')
+
 desktop_file = i18n.merge_file(
   input: 'org.postmarketos.Welcome.desktop.in',
   output: 'org.postmarketos.Welcome.desktop',
