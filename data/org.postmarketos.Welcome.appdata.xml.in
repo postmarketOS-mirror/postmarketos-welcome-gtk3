@@ -2,7 +2,10 @@
 <component type="desktop">
 	<id>org.postmarketos.Welcome.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>GPL-3.0-or-later</project_license>
+	<name>Welcome to Phosh on postmarketOS</name>
+	<summary>Brief introduction to Phosh on postmarketOS</summary>
 	<description>
+		<p>This app provides an overview on how to use Phosh on postmarketOS and includes links to more resources.</p>
 	</description>
+	<project_license>GPL-3.0-or-later</project_license>
 </component>
