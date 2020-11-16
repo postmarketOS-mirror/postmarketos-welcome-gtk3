@@ -15,4 +15,4 @@ Find detailed usage instructions in the wiki:
 If something is not working, report it here:
 <a href="https://postmarketos.org/issues">https://postmarketos.org/issues</a>
 
-<small>Thanks to everybody who contributed to postmarketOS and Phosh! As Linux enthusiast, <i>you</i> can contribute to postmarketOS too: package build recipes are simple shell scripts. Our development and install tool pmbootstrap gets you started in a few minutes on <i>any</i> Linux distribution.</small>
+<small>Thanks to everybody who contributed to postmarketOS or upstream projects - Alpine, Phosh, Linux kernel and many more! As Linux enthusiast, <i>you</i> can contribute to postmarketOS too: package build recipes are simple shell scripts. Our development and install tool pmbootstrap gets you started in a few minutes on <i>any</i> Linux distribution.</small>
