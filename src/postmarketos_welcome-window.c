@@ -19,6 +19,8 @@
 #include "postmarketos_welcome-config.h"
 #include "postmarketos_welcome-window.h"
 
+#define WELCOME_MESSAGE_LOCATION "/etc/welcome-message"
+
 struct _PostmarketosWelcomeWindow
 {
   GtkApplicationWindow  parent_instance;
@@ -48,9 +50,12 @@ static void
 postmarketos_welcome_window_init (PostmarketosWelcomeWindow *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
-
   FILE *f;
-  f = fopen("/etc/welcome-message", "r");
+  f = fopen(WELCOME_MESSAGE_LOCATION, "r");
+  if (f == NULL) {
+      fprintf(stderr, "could not open %s\n", WELCOME_MESSAGE_LOCATION);
+      return;
+  }
   fseek(f, 0, SEEK_END);
   long fsize = ftell(f);
   fseek(f, 0, SEEK_SET);
