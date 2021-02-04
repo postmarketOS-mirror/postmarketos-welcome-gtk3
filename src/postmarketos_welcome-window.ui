@@ -2,7 +2,7 @@
 <!-- Generated with glade 3.22.2 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
-  <requires lib="libhandy" version="0.0"/>
+  <requires lib="libhandy" version="1.0"/>
   <template class="PostmarketosWelcomeWindow" parent="GtkApplicationWindow">
     <property name="can_focus">False</property>
     <property name="default_width">480</property>
@@ -25,11 +25,11 @@
             <property name="visible">True</property>
             <property name="can_focus">False</property>
             <child>
-              <object class="HdyColumn">
+              <object class="HdyClamp">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="maximum_width">500</property>
-                <property name="linear_growth_width">500</property>
+                <property name="maximum_size">500</property>
+                <property name="tightening_threshold">500</property>
                 <child>
                   <object class="GtkBox">
                     <property name="visible">True</property>
