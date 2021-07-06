@@ -1,14 +1,18 @@
-<small>You are running a beta release of postmarketOS. Install updates now and make regular backups of important data. Please read the following information carefully.</small>
+<small>postmarketOS is for Linux enthusiasts. Make backups of important data on a regular basis. Please read the following information carefully.</small>
  
-<b>Open/close the top menu:</b> tap the top bar between clock and battery. Tap again in the same spot to close it. <small>(It will likely become more intuitive, see phosh#143).</small>
+<b>Open/close the top menu:</b> tap the top bar <small>(<a href="https://source.puri.sm/Librem5/phosh/-/issues/143">phosh#143</a>: swiping down is not supported)</small>
 
-<b>Connect to Wi-Fi:</b> open the top menu, tap the Wi-Fi icon. Be patient, the load indication is missing.
- 
+<b>Connect to Wi-Fi or Cellular network:</b> tap the bottom arrow to bring up the application launcher, scroll down to <i>Settings</i>. Be patient, the loading indicator is missing. From there you can select a Wi-Fi network, type in the PIN of your SIM card etc.
+
 <b>Install updates:</b> tap the bottom arrow, scroll down to <i>Software</i>. Select <i>Updates</i> on the bottom right. Update now and periodically to receive latest fixes and improvements.
 
 <b>Lockscreen / power off:</b> open the top menu, tap the power symbol on the top right.
 
 <b>Close this app (and others):</b> tap the bottom arrow, swipe the preview screen for this app upwards.
+
+<b>Enabling the SSH daemon:</b> read <a href="https://postmarketos.org/ssh">https://postmarketos.org/ssh</a>. <small>If you click the link here: opening Firefox for the first time takes longer, be patient.</small>
+
+<b>Important bugs:</b> be aware that the mute button does not work <small>(<a href="https://gitlab.com/mobian1/callaudiod/-/issues/15">callaudiod#15</a>)</small> and bluetooth/cellular modem can't be turned off in settings <small>(<a href="https://gitlab.com/postmarketOS/pmaports/-/issues/739">pmaports#739</a>)</small>. Help with fixing these is highly appreciated.
 
 Find detailed usage instructions in the wiki:
 <a href="https://postmarketos.org/intro-phosh">https://postmarketos.org/intro-phosh</a>
